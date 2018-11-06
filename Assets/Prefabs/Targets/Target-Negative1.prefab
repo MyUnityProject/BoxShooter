@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33550844144910802}
   - component: {fileID: 23983488749203946}
   - component: {fileID: 65366441462423770}
+  - component: {fileID: 95615468689460434}
   - component: {fileID: 114782033085683436}
   - component: {fileID: 114196529011696436}
   - component: {fileID: 114486282621948560}
@@ -99,6 +100,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &95615468689460434
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1372886438849940}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cec7c92e184ff32428180eb8bae73858, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114196529011696436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -110,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a926d2dbaf347e29cb9c7dc7bf85da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreAmount: -3
+  scoreAmount: -5
   timeAmount: 0
   explosionPrefab: {fileID: 1210229758980524, guid: 88a19f67621195141939664dfbce9a14,
     type: 2}
